@@ -82,13 +82,37 @@
               </div>
               
               <div class="row mb-3 align-items-start"> 
-                <div class="col-md-6">
-                  <label class="form-label">We accept:</label><br>
-                <div class="alert alert-secondary" role="alert">
-                  This is a light (gray) alert
-                </div>
-                </div>
 
+              <div class="col-md">
+                <label class="form-label fw-bold">We accept:</label>
+                <div class="accepted-cards-container">
+
+ 
+                  <label class="card-option">
+                    <input type="radio" name="card" value="mastercard">
+                    <i class="fab fa-cc-mastercard"></i>
+                  </label>
+
+ 
+                  <label class="card-option">
+                    <input type="radio" name="card" value="visa">
+                    <i class="fab fa-cc-visa"></i>
+                  </label>
+ 
+                  <label class="card-option">
+                    <input type="radio" name="card" value="diners">
+                    <i class="fab fa-cc-diners-club"></i>
+                  </label>
+ 
+                  <label class="card-option">
+                    <input type="radio" name="card" value="amex">
+                    <i class="fab fa-cc-amex"></i>
+                  </label>
+
+
+
+                </div>
+              </div>
                 <div class="col-md-6">
                   <label for="message" class="form-label">Message</label>
                   <textarea class="form-control" id="message" ></textarea>
@@ -108,8 +132,5 @@
   
         </div>
     </div>
-
-
-
 </body>
 </html>
